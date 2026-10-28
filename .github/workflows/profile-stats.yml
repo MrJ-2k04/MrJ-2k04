@@ -1,4 +1,4 @@
-name: contribution snake
+name: profile stats
 
 on:
   schedule:
@@ -15,6 +15,14 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/github-script@v9
+        with:
+          script: |
+            const pulse = require('./.github/scripts/pulse.js');
+            return pulse({ github, login: context.repo.owner, outDir: 'dist' });
+
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
