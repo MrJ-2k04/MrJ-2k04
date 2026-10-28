@@ -21,32 +21,16 @@
 
 I design and build reliable, secure systems across web, mobile, cloud and AI. Today I'm the Lead Engineer at **EngagementHub**, an AFSL-compliant SaaS platform for Australian financial advisers.
 
-<table>
-  <tr>
-    <td width="58%" valign="top">
-
-```ts
-const jay = {
-  basedIn: "Ahmedabad, India",
-  role: "Full-Stack Engineer & Solutions Architect",
-  now: "Lead Engineer at EngagementHub",
-  thinksIn: ["systems", "trade-offs", "outcomes"],
-  mantra: "Simple. Secure. Easy to change.",
-  ships: "idea → production → iteration",
-  openTo: ["Freelance", "Full-time"],
-};
-
-jay.build("something worth shipping");
-```
-
-  </td>
-  <td valign="middle">
-    <p><img src="assets/icon-ownership.svg" width="20" valign="middle" alt=""> <strong>I own it end to end</strong><br>Architecture, delivery and every iteration after launch.</p>
-    <p><img src="assets/icon-extensible.svg" width="20" valign="middle" alt=""> <strong>I design for what's next</strong><br>Simple, secure, easy to change.</p>
-    <p><img src="assets/icon-ai.svg" width="20" valign="middle" alt=""> <strong>I make AI earn its place</strong><br>Built into real workflows, not bolted on.</p>
-  </td>
-  </tr>
-</table>
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/overview-code-dark.svg">
+    <img src="assets/overview-code-light.svg" alt="const jay: based in Ahmedabad, India; Full-Stack Engineer and Solutions Architect; Lead Engineer at EngagementHub; thinks in systems, trade-offs and outcomes; simple, secure, easy to change; ships idea to production to iteration; open to freelance and full-time.">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/overview-why-dark.svg">
+    <img src="assets/overview-why-light.svg" alt="I own it end to end: architecture, delivery and every iteration after launch. I design for what's next: simple, secure, easy to change. I make AI earn its place: built into real workflows, not bolted on.">
+  </picture>
+</p>
 
 ## <img src="assets/icon-work.svg" width="22" valign="middle" alt=""> Featured engineering work
 
