@@ -161,7 +161,7 @@ timeline
 </p>
 
 <p align="center">
-  Open to freelance and full-time work.<br>
+  Open to thoughtful freelance engagements and full-time opportunities.<br>
   <a href="mailto:jay@webwizards.in">Get in touch ↗</a><br><br>
   <img src="https://komarev.com/ghpvc/?username=MrJ-2k04&style=flat-square&color=f4bd32&label=profile+views" alt="Profile views">
 </p>
