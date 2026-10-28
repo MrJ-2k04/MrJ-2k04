@@ -10,8 +10,8 @@ const CALENDAR_QUERY = `query($login: String!, $from: DateTime!, $to: DateTime!)
 }`;
 
 const THEMES = {
-  light: { bg: '#ffffff', panel: '#f6f8fa', border: '#d0d7de', text: '#1f2328', muted: '#59636e', idle: '#d0d7de', accent: ['#0d9488', '#2563eb', '#7c3aed'] },
-  dark: { bg: '#0d1117', panel: '#161b22', border: '#30363d', text: '#f0f6fc', muted: '#8b949e', idle: '#30363d', accent: ['#2dd4bf', '#60a5fa', '#a78bfa'] },
+  light: { bg: '#ffffff', panel: '#f6f8fa', border: '#d0d7de', text: '#1f2328', muted: '#59636e', idle: '#d0d7de', accent: ['#b45309', '#d97706', '#f59e0b'] },
+  dark: { bg: '#0d1117', panel: '#151b23', border: '#303945', text: '#f4f6f8', muted: '#8b949e', idle: '#303945', accent: ['#f4bd32', '#f7cc5c', '#ffe69a'] },
 };
 
 const SANS = `'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif`;

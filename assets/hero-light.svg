@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Jay Soni, Full-Stack Engineer and Solutions Architect">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#f3f5f8"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#d97706"/><stop offset="1" stop-color="#f59e0b"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#f59e0b" stop-opacity=".14"/><stop offset="1" stop-color="#f59e0b" stop-opacity="0"/></radialGradient>
+    <radialGradient id="comet"><stop stop-color="#f59e0b" stop-opacity=".75"/><stop offset="1" stop-color="#f59e0b" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#57606a" stroke-opacity=".08"/></pattern>
+    <clipPath id="card"><rect width="1200" height="320" rx="18"/></clipPath>
+    <clipPath id="t0"><rect x="88" y="260" height="28" width="0"><animate attributeName="width" values="0;346;346;0;0" keyTimes="0;0.075;0.2;0.23125;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="t1"><rect x="88" y="260" height="28" width="0"><animate attributeName="width" values="0;0;356;356;0;0" keyTimes="0;0.25;0.325;0.45;0.48125;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="t2"><rect x="88" y="260" height="28" width="0"><animate attributeName="width" values="0;0;302;302;0;0" keyTimes="0;0.5;0.575;0.7;0.73125;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="t3"><rect x="88" y="260" height="28" width="0"><animate attributeName="width" values="0;0;302;302;0;0" keyTimes="0;0.75;0.825;0.95;0.98125;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <g transform="translate(0 20)">
+      <circle cx="990" cy="145" r="230" fill="url(#glow)"/>
+
+      <g fill="#d97706">
+        <circle cx="845" cy="300" r="1.6" opacity="0"><animate attributeName="cy" values="300;140" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.6;0" dur="7s" repeatCount="indefinite"/></circle>
+        <circle cx="905" cy="300" r="1.2" opacity="0"><animate attributeName="cy" values="300;110" dur="9s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.5;0" dur="9s" begin="2s" repeatCount="indefinite"/></circle>
+        <circle cx="960" cy="290" r="1.8" opacity="0"><animate attributeName="cy" values="290;150" dur="6.5s" begin="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.6;0" dur="6.5s" begin="4s" repeatCount="indefinite"/></circle>
+        <circle cx="1015" cy="300" r="1.3" opacity="0"><animate attributeName="cy" values="300;90" dur="8s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.5;0" dur="8s" begin="1s" repeatCount="indefinite"/></circle>
+        <circle cx="1075" cy="290" r="1.6" opacity="0"><animate attributeName="cy" values="290;60" dur="7.5s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.6;0" dur="7.5s" begin="3s" repeatCount="indefinite"/></circle>
+        <circle cx="1130" cy="300" r="1.2" opacity="0"><animate attributeName="cy" values="300;40" dur="10s" begin="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.5;0" dur="10s" begin="5s" repeatCount="indefinite"/></circle>
+      </g>
+
+      <path id="route" d="M760 300 L820 250 L870 250 L920 190 L980 190 L1030 130 L1090 130 L1160 55" fill="none" stroke="#f59e0b" stroke-opacity=".16" stroke-width="20" stroke-linejoin="round" stroke-dasharray="520" stroke-dashoffset="520">
+        <animate attributeName="stroke-dashoffset" values="520;0" dur="1.6s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+      </path>
+      <path d="M760 300 L820 250 L870 250 L920 190 L980 190 L1030 130 L1090 130 L1160 55" fill="none" stroke="url(#gold)" stroke-width="2.5" stroke-linejoin="round" stroke-dasharray="8 10">
+        <animate attributeName="stroke-dashoffset" from="72" to="0" dur="5s" repeatCount="indefinite"/>
+      </path>
+
+      <g fill="none" stroke="#8c959f" stroke-opacity=".45">
+        <circle cx="980" cy="190" r="27"/>
+        <circle cx="980" cy="190" r="47" stroke-dasharray="3 7"><animateTransform attributeName="transform" type="rotate" from="0 980 190" to="360 980 190" dur="30s" repeatCount="indefinite"/></circle>
+      </g>
+      <circle cx="1027" cy="190" r="2.5" fill="#d97706"><animateTransform attributeName="transform" type="rotate" from="0 980 190" to="-360 980 190" dur="9s" repeatCount="indefinite"/></circle>
+      <circle cx="980" cy="190" r="4" fill="#f59e0b"><animate attributeName="r" values="3;6;3" dur="2.6s" repeatCount="indefinite"/></circle>
+
+      <g fill="none" stroke="#d97706" stroke-opacity="0">
+        <circle cx="820" cy="250" r="5"><animate attributeName="r" values="5;5;20;20" keyTimes="0;.092;.242;1" dur="5s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0;0;.9;0;0" keyTimes="0;.092;.1;.242;1" dur="5s" repeatCount="indefinite"/></circle>
+        <circle cx="920" cy="190" r="5"><animate attributeName="r" values="5;5;20;20" keyTimes="0;.244;.394;1" dur="5s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0;0;.9;0;0" keyTimes="0;.244;.252;.394;1" dur="5s" repeatCount="indefinite"/></circle>
+        <circle cx="1030" cy="130" r="5"><animate attributeName="r" values="5;5;20;20" keyTimes="0;.408;.558;1" dur="5s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0;0;.9;0;0" keyTimes="0;.408;.416;.558;1" dur="5s" repeatCount="indefinite"/></circle>
+        <circle cx="1160" cy="55" r="5"><animate attributeName="r" values="5;5;30;30" keyTimes="0;.6;.8;1" dur="5s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0;0;.9;0;0" keyTimes="0;.6;.608;.8;1" dur="5s" repeatCount="indefinite"/></circle>
+      </g>
+      <g fill="#ffffff" stroke="#d97706" stroke-width="1.5">
+        <circle cx="820" cy="250" r="5"><animate attributeName="fill" values="#ffffff;#ffffff;#f59e0b;#ffffff;#ffffff" keyTimes="0;.092;.1;.272;1" dur="5s" repeatCount="indefinite"/></circle>
+        <circle cx="920" cy="190" r="5"><animate attributeName="fill" values="#ffffff;#ffffff;#f59e0b;#ffffff;#ffffff" keyTimes="0;.244;.252;.424;1" dur="5s" repeatCount="indefinite"/></circle>
+        <circle cx="1030" cy="130" r="5"><animate attributeName="fill" values="#ffffff;#ffffff;#f59e0b;#ffffff;#ffffff" keyTimes="0;.408;.416;.588;1" dur="5s" repeatCount="indefinite"/></circle>
+        <circle cx="1160" cy="55" r="5"><animate attributeName="fill" values="#ffffff;#ffffff;#f59e0b;#ffffff;#ffffff" keyTimes="0;.6;.608;.85;1" dur="5s" repeatCount="indefinite"/></circle>
+      </g>
+      <g font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="2" text-anchor="end" fill="#8c959f">
+        <text x="808" y="240">DESIGN<animate attributeName="fill" values="#8c959f;#8c959f;#b45309;#8c959f;#8c959f" keyTimes="0;.092;.1;.272;1" dur="5s" repeatCount="indefinite"/></text>
+        <text x="908" y="180">BUILD<animate attributeName="fill" values="#8c959f;#8c959f;#b45309;#8c959f;#8c959f" keyTimes="0;.244;.252;.424;1" dur="5s" repeatCount="indefinite"/></text>
+        <text x="1018" y="120">SHIP<animate attributeName="fill" values="#8c959f;#8c959f;#b45309;#8c959f;#8c959f" keyTimes="0;.408;.416;.588;1" dur="5s" repeatCount="indefinite"/></text>
+        <text x="1148" y="45">SCALE<animate attributeName="fill" values="#8c959f;#8c959f;#b45309;#8c959f;#8c959f" keyTimes="0;.6;.608;.85;1" dur="5s" repeatCount="indefinite"/></text>
+      </g>
+
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.03;.58;.66;1" dur="5s" repeatCount="indefinite"/>
+        <animateMotion dur="5s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;.6;1"><mpath href="#route"/></animateMotion>
+        <circle r="16" fill="url(#comet)"/>
+        <circle r="4" fill="#d97706"/>
+      </g>
+    </g>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="58" y="58" fill="#b45309" font-size="15" letter-spacing="4">ENGINEERING / SYSTEMS / DELIVERY</text>
+    <circle cx="514" cy="53" r="5" fill="#1a7f37"><animate attributeName="fill-opacity" values="1;0.35;1" dur="1.6s" repeatCount="indefinite"/></circle>
+    <circle cx="514" cy="53" r="5" fill="none" stroke="#1a7f37">
+      <animate attributeName="r" values="5;13" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.7;0" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="530" y="58" fill="#1a7f37" font-size="14" letter-spacing="2">OPEN TO WORK</text>
+
+    <text x="54" y="140" fill="#1f2328" font-size="72" font-weight="700">Jay <tspan fill="#b45309">Soni</tspan></text>
+    <rect x="58" y="162" width="4" height="36" rx="2" fill="#d97706"/>
+    <text x="76" y="189" fill="#24292f" font-size="28">Full-Stack Engineer <tspan fill="#8c959f">/</tspan> Solutions Architect</text>
+    <text x="59" y="234" fill="#57606a" font-size="20">Designing, building and shipping software that solves real problems.</text>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="18" fill="#57606a">
+    <text x="59" y="280" fill="#b45309">$</text>
+    <text x="88" y="280" textLength="346" lengthAdjust="spacing" clip-path="url(#t0)">building full-stack applications</text>
+    <text x="88" y="280" textLength="356" lengthAdjust="spacing" clip-path="url(#t1)">architecting cloud infrastructure</text>
+    <text x="88" y="280" textLength="302" lengthAdjust="spacing" clip-path="url(#t2)">integrating AI into products</text>
+    <text x="88" y="280" textLength="302" lengthAdjust="spacing" clip-path="url(#t3)">shipping ideas to production</text>
+    <rect x="88" y="264" width="11" height="21" fill="#d97706">
+      <animate attributeName="x" values="88;434;434;88;88;444;444;88;88;390;390;88;88;390;390;88;88" keyTimes="0;0.075;0.2;0.23125;0.25;0.325;0.45;0.48125;0.5;0.575;0.7;0.73125;0.75;0.825;0.95;0.98125;1" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="318" rx="17" fill="none" stroke="#d0d7de"/>
+</svg>

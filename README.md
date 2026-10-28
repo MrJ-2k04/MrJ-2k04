@@ -1,186 +1,247 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
-  <img alt="Jay Soni, Full-Stack Engineer & Solutions Architect" src="assets/header-light.svg" width="100%">
-</picture>
-
-<h3 align="center">Engineering ideas into production-ready software.</h3>
-<p align="center">Full-stack applications · Cloud architecture · AI integration</p>
-
 <p align="center">
-  <a href="https://webwizards.in"><img src="https://img.shields.io/badge/website-webwizards.in-0d9488?style=flat-square" alt="Website"></a>
-  <a href="https://www.linkedin.com/in/jay-soni-462333229"><img src="https://img.shields.io/badge/linkedin-jay--soni-0a66c2?style=flat-square" alt="LinkedIn"></a>
-  <a href="mailto:jay@webwizards.in"><img src="https://img.shields.io/badge/email-jay%40webwizards.in-2563eb?style=flat-square" alt="Email"></a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+    <img src="assets/hero-light.svg" width="100%" alt="Jay Soni, Full-Stack Engineer and Solutions Architect. Designing, building and shipping software that solves real problems.">
+  </picture>
 </p>
 
-<br>
+<p align="center">
+  <a href="https://webwizards.in"><img src="https://img.shields.io/badge/Website-webwizards.in-f4bd32?style=flat-square&labelColor=171c23&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCcgZmlsbD0nbm9uZScgc3Ryb2tlPScjZjRiZDMyJyBzdHJva2Utd2lkdGg9JzInPjxjaXJjbGUgY3g9JzEyJyBjeT0nMTInIHI9JzEwJy8%2BPHBhdGggZD0nTTIgMTJoMjBNMTIgMmExNSAxNSAwIDAgMSAwIDIwTTEyIDJhMTUgMTUgMCAwIDAgMCAyMCcvPjwvc3ZnPg%3D%3D" alt="Website"></a>
+  <a href="https://www.linkedin.com/in/jay-soni-462333229"><img src="https://img.shields.io/badge/LinkedIn-Jay_Soni-0A66C2?style=flat-square&labelColor=171c23&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCc%2BPHBhdGggZmlsbD0nI2ZmZmZmZicgZD0nTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyMiAwaC4wMDN6Jy8%2BPC9zdmc%2B" alt="LinkedIn"></a>
+  <a href="mailto:jay@webwizards.in"><img src="https://img.shields.io/badge/Email-Get_in_touch-f4bd32?style=flat-square&labelColor=171c23&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCcgZmlsbD0nbm9uZScgc3Ryb2tlPScjZjRiZDMyJyBzdHJva2Utd2lkdGg9JzInIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPjxyZWN0IHg9JzInIHk9JzQnIHdpZHRoPScyMCcgaGVpZ2h0PScxNicgcng9JzInLz48cGF0aCBkPSdtMjIgNi0xMCA3TDIgNicvPjwvc3ZnPg%3D%3D" alt="Email"></a>
+</p>
 
-I design, build and deploy production software, from full-stack web and mobile apps to cloud infrastructure and AI-powered features. For the last three years I've been a core engineer on **EngagementHub**, a platform Australian financial advisers use to run their practices, and I've shipped products of my own along the way.
+<p align="center">
+  <em>Full-stack systems · Cloud architecture · Applied AI</em>
+</p>
 
-```js
+---
+
+## <img src="assets/icon-overview.svg" width="22" valign="middle" alt=""> Engineering overview
+
+I design, build and ship production software across the stack, from web and mobile applications to cloud infrastructure and AI-powered workflows. Over the past three years I've grown from contractor to Lead Engineer at **EngagementHub**, an AFSL-compliant SaaS platform used by Australian financial advisers, while also building and shipping products of my own.
+
+I enjoy owning problems end to end: understanding constraints, choosing a practical architecture, delivering the implementation and improving it in production. My focus is on reliable systems, maintainable code and technology that solves a real problem.
+
+<table>
+  <tr>
+    <td width="58%" valign="top">
+
+```ts
 const jay = {
-  basedIn: "Ahmedabad, India 🇮🇳",
-  now: "Shipping AI features on AWS for EngagementHub",
-  coreStack: ["React", "Node.js", "AWS", "Python"],
-  into: ["Serverless & GPU infra", "Applied AI", "Secure-by-default systems"],
+  basedIn: "Ahmedabad, India",
+  role: "Full-Stack Engineer & Solutions Architect",
+  now: "Lead Engineer at EngagementHub",
+  focus: ["AWS", "Applied AI", "System design"],
+  approach: "Practical, secure, production-minded",
   openTo: ["Freelance", "Full-time"],
 };
 ```
 
-<br>
+  </td>
+  <td valign="middle">
+    <p><img src="assets/icon-build.svg" width="20" valign="middle" alt=""> <strong>Build end to end</strong><br>From product requirements to deployment and iteration.</p>
+    <p><img src="assets/icon-design.svg" width="20" valign="middle" alt=""> <strong>Design for change</strong><br>Architecture that balances reliability, cost and maintainability.</p>
+    <p><img src="assets/icon-ai.svg" width="20" valign="middle" alt=""> <strong>Make AI useful</strong><br>Integrations built around real workflows, not demos.</p>
+  </td>
+  </tr>
+</table>
 
-## ✦ Selected work
+## <img src="assets/icon-work.svg" width="22" valign="middle" alt=""> Selected engineering work
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>💼 EngagementHub</h3>
-      <p><b>An all-in-one platform for financial advisers and dealer groups in Australia.</b></p>
-      <p><b>My role:</b> full-stack engineer since 2023, taking features from design through to production on a React and AWS serverless stack.</p>
-      <p>📈 <b>230+</b> commits · <b>6</b> AI tools built · <b>3</b> years on the product</p>
+      <h3><img src="assets/work-engagementhub.svg" width="44" valign="middle" alt=""> EngagementHub</h3>
+      <p><strong>AFSL-compliant SaaS for Australian financial advisers.</strong></p>
+      <p><strong>Role:</strong> Lead Engineer. I started as a contractor in 2023 and now own features end to end, across the application and the AWS backend.</p>
+      <p><strong>Impact:</strong> 230+ commits · 6 AI tools built · 3 years on the product</p>
       <details>
-        <summary><b>Under the hood</b></summary>
-        <br>
+        <summary><strong>Under the hood</strong></summary>
         <ul>
-          <li>AI presentations, reports, insurance summaries, proposals and file notes, generated with Claude on AWS Bedrock</li>
-          <li>Rebuilt a stalled AI prototype as an SQS → Lambda → Bedrock pipeline, then moved it to ECS/ECR when it outgrew Lambda</li>
-          <li>Production DocuSign signing with live signer tracking and push notifications</li>
-          <li>Settings that cascade from dealer groups to practices to advisers</li>
-          <li>Built on Amplify, AppSync (GraphQL), Lambda, DynamoDB, SQS, S3 and Cognito</li>
+          <li>Built AI-assisted workflows for presentations, reports, insurance summaries, proposals and file notes using Claude on Amazon Bedrock.</li>
+          <li>Reworked a stalled AI prototype into an SQS → Lambda → Bedrock pipeline, then moved processing to ECS/ECR when it outgrew Lambda.</li>
+          <li>Implemented DocuSign signing with live signer tracking and push notifications.</li>
+          <li>Built configurable settings that cascade across dealer groups, practices and advisers.</li>
+          <li>Worked across Amplify, AppSync, Lambda, DynamoDB, SQS, S3 and Cognito.</li>
         </ul>
       </details>
-      <a href="https://www.engagementhub.net"><img src="https://img.shields.io/badge/website-engagementhub.net-7c3aed?style=flat-square" alt="EngagementHub website"></a>
+      <p><a href="https://www.engagementhub.net">Product website ↗</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>📸 Presentify</h3>
-      <p><b>Face recognition attendance for schools and colleges.</b></p>
-      <p><b>My role:</b> founder and sole engineer, from the architecture to the App Store and Google Play launch.</p>
-      <p>📈 <b>1,200+</b> students · <b>430+</b> lectures · <b>~20s</b> per class photo</p>
+      <h3><img src="assets/work-presentify.svg" width="44" valign="middle" alt=""> Presentify</h3>
+      <p><strong>Face-recognition attendance for schools and colleges.</strong></p>
+      <p><strong>Role:</strong> Founder and sole engineer, from architecture through to the App Store and Google Play release.</p>
+      <p><strong>Impact:</strong> 1,200+ students · 430+ lectures · ~20s per class photo</p>
       <details>
-        <summary><b>Under the hood</b></summary>
-        <br>
+        <summary><strong>Under the hood</strong></summary>
         <ul>
-          <li>Flutter app, React admin dashboard, Next.js site and a Node/GraphQL API</li>
-          <li>FastAPI + InsightFace matching on Modal's serverless GPUs (29.5s at P95 over 400+ jobs)</li>
-          <li>One centroid embedding per student plus an ~8% margin cut look-alike false positives</li>
-          <li>JWT with refresh tokens and role-based access across a five-level hierarchy</li>
+          <li>Delivered Flutter mobile apps, a React admin dashboard, a Next.js website and a Node.js/GraphQL API.</li>
+          <li>Built a FastAPI face-matching service using InsightFace on Modal's serverless GPUs (29.5s at P95 over 400+ jobs).</li>
+          <li>Matched against one centroid embedding per student with an ~8% margin check to cut look-alike false positives.</li>
+          <li>Implemented JWT auth with refresh tokens and role-based access across a five-level organisation hierarchy.</li>
         </ul>
       </details>
-      <a href="https://presentify.in"><img src="https://img.shields.io/badge/website-presentify.in-7c3aed?style=flat-square" alt="Presentify website"></a>
+      <p><a href="https://presentify.in">Product website ↗</a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🚗 Savari Dekho</h3>
-      <p><b>A carpooling app where drivers offer rides and passengers book and pay for seats.</b></p>
-      <p><b>My role:</b> built the whole stack and deployed it on my own domain.</p>
-      <p>📈 Live payments and route maps, end to end</p>
+      <h3><img src="assets/work-savaridekho.svg" width="44" valign="middle" alt=""> Savari Dekho</h3>
+      <p><strong>A carpooling application for offering rides and booking seats.</strong></p>
+      <p><strong>Role:</strong> Full-stack implementation and deployment.</p>
+      <p><strong>Impact:</strong> live seat booking with payments, payouts and route maps</p>
       <details>
-        <summary><b>Under the hood</b></summary>
-        <br>
+        <summary><strong>Under the hood</strong></summary>
         <ul>
-          <li>MERN stack: MongoDB, Express, React and Node.js</li>
-          <li>Razorpay and RazorpayX for payments and payouts, Google Maps for routing</li>
-          <li>Frontend on Cloudflare Pages, API on self-managed hosting</li>
+          <li>MERN application with MongoDB, Express, React and Node.js.</li>
+          <li>Integrated Razorpay/RazorpayX payment flows and Google Maps routing.</li>
+          <li>Deployed the frontend to Cloudflare Pages and hosted the API separately.</li>
         </ul>
       </details>
-      <a href="https://savaridekho.webwizards.in"><img src="https://img.shields.io/badge/live-demo-0d9488?style=flat-square" alt="Live demo"></a>
-      <a href="https://github.com/MrJ-2k04/savari-dekho"><img src="https://img.shields.io/badge/code-GitHub-1f2328?style=flat-square&logo=github&logoColor=white" alt="Code"></a>
+      <p><a href="https://savaridekho.webwizards.in">Live demo ↗</a> · <a href="https://github.com/MrJ-2k04/savari-dekho">Source code ↗</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>📈 PriceTrack</h3>
-      <p><b>Predicts used bike prices and compares six models side by side.</b></p>
-      <p><b>My role:</b> data cleaning, modelling and the interactive UI.</p>
-      <p>📈 <b>98.2%</b> R² with Random Forest, up from 92.8% with linear regression</p>
+      <h3><img src="assets/work-pricetrack.svg" width="44" valign="middle" alt=""> PriceTrack</h3>
+      <p><strong>A used-bike price prediction and model-comparison tool.</strong></p>
+      <p><strong>Role:</strong> Data preparation, model training and interactive UI.</p>
+      <p><strong>Impact:</strong> 98.2% R² with Random Forest, up from 92.8% with linear regression</p>
       <details>
-        <summary><b>Under the hood</b></summary>
-        <br>
+        <summary><strong>Under the hood</strong></summary>
         <ul>
-          <li>Cleaned and explored a dataset of 30,000+ used bikes</li>
-          <li>Linear, Ridge, Lasso, Decision Tree, Random Forest and Gradient Boosting models</li>
-          <li>A Streamlit UI shows live predictions from all six models</li>
+          <li>Prepared and explored a dataset of 30,000+ used bikes.</li>
+          <li>Compared Linear, Ridge, Lasso, Decision Tree, Random Forest and Gradient Boosting models.</li>
+          <li>Built a Streamlit interface for comparing predictions across models.</li>
         </ul>
       </details>
-      <a href="https://github.com/MrJ-2k04/PriceTrack"><img src="https://img.shields.io/badge/code-GitHub-1f2328?style=flat-square&logo=github&logoColor=white" alt="Code"></a>
+      <p><a href="https://github.com/MrJ-2k04/PriceTrack">Source code ↗</a></p>
     </td>
   </tr>
 </table>
 
-<br>
+<details>
+  <summary><strong>How I approach engineering</strong></summary>
+  <ul>
+    <li><strong>Architecture:</strong> choose patterns based on product needs, operational constraints and maintainability.</li>
+    <li><strong>Delivery:</strong> own work from requirements and implementation through deployment and iteration.</li>
+    <li><strong>AI integration:</strong> account for latency, cost, evaluation and reliability when building model-powered workflows.</li>
+    <li><strong>Security:</strong> treat authentication, authorisation and safe defaults as core design concerns.</li>
+  </ul>
+</details>
 
-## ✦ Journey
+## <img src="assets/icon-stack.svg" width="22" valign="middle" alt=""> Technical toolkit
+
+<h4 align="center">💻 Frontend & Mobile</h4>
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter">
+  <img src="https://img.shields.io/badge/Material_UI-007FFF?style=for-the-badge&logo=mui&logoColor=white" alt="Material UI">
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite">
+</p>
+
+<h4 align="center">⚙️ Backend & APIs</h4>
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express">
+  <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="GraphQL">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
+</p>
+
+<h4 align="center">📝 Languages</h4>
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart">
+</p>
+
+<h4 align="center">☁️ Cloud (Amazon Web Services)</h4>
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS-Amplify-232F3E?style=for-the-badge&labelColor=FF9900" alt="AWS Amplify">
+  <img src="https://img.shields.io/badge/AWS-Lambda-232F3E?style=for-the-badge&labelColor=FF9900" alt="AWS Lambda">
+  <img src="https://img.shields.io/badge/AWS-AppSync-232F3E?style=for-the-badge&labelColor=FF9900" alt="AWS AppSync">
+  <img src="https://img.shields.io/badge/AWS-Cognito-232F3E?style=for-the-badge&labelColor=FF9900" alt="Amazon Cognito"><br>
+  <img src="https://img.shields.io/badge/AWS-S3-232F3E?style=for-the-badge&labelColor=FF9900" alt="Amazon S3">
+  <img src="https://img.shields.io/badge/AWS-SQS-232F3E?style=for-the-badge&labelColor=FF9900" alt="Amazon SQS">
+  <img src="https://img.shields.io/badge/AWS-ECS-232F3E?style=for-the-badge&labelColor=FF9900" alt="Amazon ECS">
+</p>
+
+<h4 align="center">🚀 DevOps & Delivery</h4>
+<p align="center">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions">
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
+</p>
+
+<h4 align="center">🗄️ Databases</h4>
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS-DynamoDB-4053D6?style=for-the-badge&labelColor=FF9900" alt="Amazon DynamoDB">
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white" alt="Firebase">
+</p>
+
+<h4 align="center">🤖 AI & Machine Learning</h4>
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS-Bedrock-01A88D?style=for-the-badge&labelColor=FF9900" alt="Amazon Bedrock">
+  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude">
+  <img src="https://img.shields.io/badge/InsightFace-3B4252?style=for-the-badge" alt="InsightFace">
+  <img src="https://img.shields.io/badge/ONNX_Runtime-005CED?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX Runtime">
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn">
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit">
+</p>
+
+<h4 align="center">🔌 Integrations & Payments</h4>
+<p align="center">
+  <img src="https://img.shields.io/badge/DocuSign-4C00FF?style=for-the-badge" alt="DocuSign">
+  <img src="https://img.shields.io/badge/Razorpay-0C2451?style=for-the-badge&logo=razorpay&logoColor=3395FF" alt="Razorpay">
+  <img src="https://img.shields.io/badge/Google_Maps-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Google Maps">
+</p>
+
+## <img src="assets/icon-journey.svg" width="22" valign="middle" alt=""> Career path
 
 ```mermaid
 timeline
-    2021 : Joined GitHub
-         : Started BCA
-    2022 : Started freelancing on Upwork
-    2023 : Joined EngagementHub
-         : Upwork-certified in JavaScript frontend
-    2024 : Built Savari Dekho
-         : Finished BCA, started MCA
-    2025 : Built PriceTrack
+    title Engineering journey
+    2021 : Began a Bachelor of Computer Applications
+    2023 : Started freelancing on Upwork
+         : Delivered contract features for EngagementHub
+    2024 : Joined EngagementHub as a part-time Frontend Engineer
+         : Graduated BCA and began an MCA
+    2025 : Moved to full-time Full-Stack Engineer, owning the AWS stack
          : Founded Presentify
-    2026 : Presentify live on both app stores
-         : Built AI tools at EngagementHub
-         : MCA with an 8.78 CGPA
+    2026 : Promoted to Lead Engineer at EngagementHub
+         : Launched Presentify on the App Store and Google Play
+         : Completed Masters with an 8.78 CGPA
 ```
 
-<br>
+## <img src="assets/icon-activity.svg" width="22" valign="middle" alt=""> GitHub activity
 
-## ✦ Toolbox
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MrJ-2k04/MrJ-2k04/output/pulse-dark.svg">
+    <img alt="GitHub contribution statistics" src="https://raw.githubusercontent.com/MrJ-2k04/MrJ-2k04/output/pulse-light.svg" width="100%">
+  </picture>
+</p>
 
-<table>
-  <tr>
-    <td width="150"><b>Frontend</b></td>
-    <td><img src="https://skillicons.dev/icons?i=react,nextjs,flutter,tailwind" height="40" alt="React, Next.js, Flutter, Tailwind"></td>
-  </tr>
-  <tr>
-    <td><b>Backend</b></td>
-    <td><img src="https://skillicons.dev/icons?i=nodejs,nestjs,graphql,fastapi" height="40" alt="Node.js, NestJS, GraphQL, FastAPI"></td>
-  </tr>
-  <tr>
-    <td><b>Data</b></td>
-    <td><img src="https://skillicons.dev/icons?i=dynamodb,mongodb,postgres" height="40" alt="DynamoDB, MongoDB, PostgreSQL"></td>
-  </tr>
-  <tr>
-    <td><b>Cloud</b></td>
-    <td><img src="https://skillicons.dev/icons?i=aws,docker,cloudflare" height="40" alt="AWS, Docker, Cloudflare"></td>
-  </tr>
-  <tr>
-    <td><b>Languages</b></td>
-    <td><img src="https://skillicons.dev/icons?i=ts,js,python,dart" height="40" alt="TypeScript, JavaScript, Python, Dart"></td>
-  </tr>
-  <tr>
-    <td><b>AI</b></td>
-    <td>AWS Bedrock (Claude) · InsightFace · ONNX Runtime</td>
-  </tr>
-</table>
-
-<br>
-
-## ✦ GitHub pulse
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MrJ-2k04/MrJ-2k04/output/pulse-dark.svg">
-  <img alt="GitHub contribution stats" src="https://raw.githubusercontent.com/MrJ-2k04/MrJ-2k04/output/pulse-light.svg" width="100%">
-</picture>
-
-<details>
-  <summary><b>🐍 Watch a snake eat my contribution graph</b></summary>
-  <br>
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MrJ-2k04/MrJ-2k04/output/snake-dark.svg">
     <img alt="A snake eating my contribution graph" src="https://raw.githubusercontent.com/MrJ-2k04/MrJ-2k04/output/snake-light.svg" width="100%">
   </picture>
-</details>
-
-<br>
-
-<img src="assets/footer.svg" alt="Thanks for stopping by" width="100%">
+</p>
 
 <p align="center">
-  Open to freelance and full-time work. The fastest way to reach me is <a href="mailto:jay@webwizards.in">email</a>.
-  <br><br>
-  <img src="https://komarev.com/ghpvc/?username=MrJ-2k04&style=flat-square&color=59636e&label=profile+views" alt="Profile views">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
+    <img src="assets/footer-light.svg" alt="Build with intent. Ship with care. Keep learning." width="100%">
+  </picture>
+</p>
+
+<p align="center">
+  Open to thoughtful freelance engagements and full-time opportunities.<br>
+  <a href="mailto:jay@webwizards.in">Get in touch ↗</a><br><br>
+  <img src="https://komarev.com/ghpvc/?username=MrJ-2k04&style=flat-square&color=f4bd32&label=profile+views" alt="Profile views">
 </p>
