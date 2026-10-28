@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-    <img src="assets/hero-light.svg" width="100%" alt="Jay Soni, Full-Stack Engineer and Solutions Architect. Designing, building and shipping software that solves real problems.">
+    <img src="assets/hero-light.svg" width="100%" alt="Jay Soni, Full-Stack Engineer and Solutions Architect. Open to work.">
   </picture>
 </p>
 
@@ -19,7 +19,7 @@
 
 ## <img src="assets/icon-overview.svg" width="22" valign="middle" alt=""> Engineering overview
 
-I take products from idea to production across web, mobile, cloud and AI. Today I'm the Lead Engineer at **EngagementHub**, an AFSL-compliant SaaS platform for Australian financial advisers.
+I design and build reliable, secure systems across web, mobile, cloud and AI. Today I'm the Lead Engineer at **EngagementHub**, an AFSL-compliant SaaS platform for Australian financial advisers.
 
 <table>
   <tr>
@@ -41,9 +41,9 @@ jay.build("something worth shipping");
 
   </td>
   <td valign="middle">
-    <p><img src="assets/icon-ownership.svg" width="20" valign="middle" alt=""> <strong>I own it end to end</strong><br>From the first requirement to production, and the improvements that follow launch.</p>
-    <p><img src="assets/icon-extensible.svg" width="20" valign="middle" alt=""> <strong>I design for what's next</strong><br>Simple architecture today that scales, stays secure and is easy to change tomorrow.</p>
-    <p><img src="assets/icon-ai.svg" width="20" valign="middle" alt=""> <strong>I make AI earn its place</strong><br>AI built into real workflows, with cost, speed and accuracy kept in check.</p>
+    <p><img src="assets/icon-ownership.svg" width="20" valign="middle" alt=""> <strong>I own it end to end</strong><br>Architecture, delivery and every iteration after launch.</p>
+    <p><img src="assets/icon-extensible.svg" width="20" valign="middle" alt=""> <strong>I design for what's next</strong><br>Simple, secure, easy to change.</p>
+    <p><img src="assets/icon-ai.svg" width="20" valign="middle" alt=""> <strong>I make AI earn its place</strong><br>Built into real workflows, not bolted on.</p>
   </td>
   </tr>
 </table>
@@ -52,67 +52,59 @@ jay.build("something worth shipping");
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td colspan="3" valign="top">
       <h3><img src="assets/work-engagementhub.svg" width="44" valign="middle" alt=""> EngagementHub</h3>
       <p><strong>AFSL-compliant SaaS for Australian financial advisers.</strong></p>
-      <p><strong>Role:</strong> Lead Engineer. I started as a contractor in 2023 and now own features end to end, across the application and the AWS backend.</p>
-      <p><strong>Impact:</strong> 230+ commits · 6 AI tools built · 3 years on the product</p>
+      <p>Lead Engineer · 230+ commits · 6 AI tools built</p>
+      <p><strong>Highlight:</strong> a stalled AI prototype rebuilt as an SQS → Lambda → Bedrock pipeline, later moved to ECS when it outgrew Lambda.</p>
       <details>
         <summary><strong>Under the hood</strong></summary>
         <ul>
-          <li>Built AI-assisted workflows for presentations, reports, insurance summaries, proposals and file notes using Claude on Amazon Bedrock.</li>
-          <li>Reworked a stalled AI prototype into an SQS → Lambda → Bedrock pipeline, then moved processing to ECS/ECR when it outgrew Lambda.</li>
-          <li>Implemented DocuSign signing with live signer tracking and push notifications.</li>
-          <li>Built configurable settings that cascade across dealer groups, practices and advisers.</li>
-          <li>Worked across Amplify, AppSync, Lambda, DynamoDB, SQS, S3 and Cognito.</li>
+          <li>AI workflows for presentations, reports, insurance summaries, proposals and file notes, on Claude and Amazon Bedrock.</li>
+          <li>DocuSign signing with live tracking and push notifications.</li>
+          <li>Settings that cascade across dealer groups, practices and advisers.</li>
         </ul>
       </details>
       <p><a href="https://www.engagementhub.net">Product website ↗</a></p>
     </td>
-    <td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
       <h3><img src="assets/work-presentify.svg" width="44" valign="middle" alt=""> Presentify</h3>
       <p><strong>Face-recognition attendance for schools and colleges.</strong></p>
-      <p><strong>Role:</strong> Founder and engineer, from architecture through to the App Store and Google Play release.</p>
-      <p><strong>Impact:</strong> 1,200+ students · 430+ lectures · ~20s per class photo</p>
+      <p>Founder and engineer · 1,200+ students · 430+ lectures</p>
       <details>
         <summary><strong>Under the hood</strong></summary>
         <ul>
-          <li>Delivered Flutter mobile apps, a React admin dashboard, a Next.js website and a Node.js/GraphQL API.</li>
-          <li>Built a FastAPI face-matching service using InsightFace on Modal's serverless GPUs (29.5s at P95 over 400+ jobs).</li>
-          <li>Matched against one centroid embedding per student with an ~8% margin check to cut look-alike false positives.</li>
-          <li>Implemented JWT auth with refresh tokens and role-based access across a five-level organisation hierarchy.</li>
+          <li>Flutter apps, a React admin dashboard, a Next.js site and a Node.js/GraphQL API.</li>
+          <li>FastAPI face matching with InsightFace on Modal GPUs, 29.5s at P95.</li>
+          <li>One embedding per student, with a margin check against look-alikes.</li>
         </ul>
       </details>
       <p><a href="https://presentify.in">Product website ↗</a></p>
     </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <h3><img src="assets/work-savaridekho.svg" width="44" valign="middle" alt=""> Savari Dekho</h3>
       <p><strong>A carpooling application for offering rides and booking seats.</strong></p>
-      <p><strong>Role:</strong> Full-stack implementation and deployment.</p>
-      <p><strong>Impact:</strong> live seat booking with payments, payouts and route maps</p>
+      <p>Full-stack build · live seat booking, payments and route maps</p>
       <details>
         <summary><strong>Under the hood</strong></summary>
         <ul>
-          <li>MERN application with MongoDB, Express, React and Node.js.</li>
-          <li>Integrated Razorpay/RazorpayX payment flows and Google Maps routing.</li>
-          <li>Deployed the frontend to Cloudflare Pages and hosted the API separately.</li>
+          <li>MERN app with Razorpay payments and Google Maps routing.</li>
+          <li>Frontend on Cloudflare Pages, API hosted separately.</li>
         </ul>
       </details>
       <p><a href="https://savaridekho.webwizards.in">Live demo ↗</a> · <a href="https://github.com/MrJ-2k04/savari-dekho">Source code ↗</a></p>
     </td>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <h3><img src="assets/work-pricetrack.svg" width="44" valign="middle" alt=""> PriceTrack</h3>
       <p><strong>A used-bike price prediction and model-comparison tool.</strong></p>
-      <p><strong>Role:</strong> Data preparation, model training and interactive UI.</p>
-      <p><strong>Impact:</strong> 98.2% R² with Random Forest, up from 92.8% with linear regression</p>
+      <p>Data and ML · 98.2% R² with Random Forest, up from 92.8%</p>
       <details>
         <summary><strong>Under the hood</strong></summary>
         <ul>
-          <li>Prepared and explored a dataset of 30,000+ used bikes.</li>
-          <li>Compared Linear, Ridge, Lasso, Decision Tree, Random Forest and Gradient Boosting models.</li>
-          <li>Built a Streamlit interface for comparing predictions across models.</li>
+          <li>30,000+ used bikes, six models compared from linear to gradient boosting.</li>
+          <li>Streamlit app to compare predictions side by side.</li>
         </ul>
       </details>
       <p><a href="https://github.com/MrJ-2k04/PriceTrack">Source code ↗</a></p>
@@ -120,22 +112,12 @@ jay.build("something worth shipping");
   </tr>
 </table>
 
-<details>
-  <summary><strong>How I approach engineering</strong></summary>
-  <ul>
-    <li><strong>Architecture:</strong> choose patterns based on product needs, operational constraints and maintainability.</li>
-    <li><strong>Delivery:</strong> own work from requirements and implementation through deployment and iteration.</li>
-    <li><strong>AI integration:</strong> account for latency, cost, evaluation and reliability when building model-powered workflows.</li>
-    <li><strong>Security:</strong> treat authentication, authorisation and safe defaults as core design concerns.</li>
-  </ul>
-</details>
-
 ## <img src="assets/icon-stack.svg" width="22" valign="middle" alt=""> Technical toolkit
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/toolkit-dark.svg">
-    <img src="assets/toolkit-light.svg" width="100%" alt="Technical toolkit grouped by layer. Frontend and mobile: React, Next.js, Flutter, Material UI, Vite. Backend and APIs: Node.js, Express.js, GraphQL, FastAPI. Amazon Web Services: Amplify, Lambda, AppSync, Cognito, S3, SQS, ECS. Databases: DynamoDB, MongoDB, PostgreSQL, Firebase. AI and machine learning: Amazon Bedrock, Claude, InsightFace, ONNX Runtime, scikit-learn, Streamlit. Languages: TypeScript, JavaScript, Python, Dart. DevOps and hosting: Docker, GitHub Actions, Cloudflare, Linux, Render, Modal, cPanel, DirectAdmin.">
+    <img src="assets/toolkit-light.svg" width="100%" alt="Technical toolkit grouped by layer. Frontend and mobile: React, Next.js, Flutter. Backend and APIs: Node.js, Express.js, GraphQL, FastAPI. Amazon Web Services: Amplify, Lambda, AppSync, Cognito, S3, SQS. Databases: DynamoDB, MongoDB, PostgreSQL, Firebase. AI and machine learning: Amazon Bedrock, AssemblyAI, InsightFace, ONNX Runtime. Languages: TypeScript, JavaScript, Python, Dart. DevOps and hosting: Docker, Vercel, Cloudflare, Linux, Render, Modal, cPanel, DirectAdmin.">
   </picture>
 </p>
 
@@ -144,16 +126,15 @@ jay.build("something worth shipping");
 ```mermaid
 timeline
     title Engineering journey
-    2021 : Began a Bachelor of Computer Applications
+    2021 : Began a BCA
     2023 : Started freelancing on Upwork
-         : Delivered contract features for EngagementHub
-    2024 : Joined EngagementHub as a part-time Frontend Engineer
-         : Graduated BCA and began an MCA
-    2025 : Moved to full-time Full-Stack Engineer, owning the AWS stack
+         : First EngagementHub contract work
+    2024 : Joined EngagementHub as Frontend Engineer
+    2025 : Full-Stack Engineer, owning the AWS stack
          : Founded Presentify
-    2026 : Promoted to Lead Engineer at EngagementHub
-         : Launched Presentify on the App Store and Google Play
-         : Completed Masters with an 8.78 CGPA
+    2026 : Lead Engineer at EngagementHub
+         : Presentify live on the app stores
+         : Masters, 8.78 CGPA
 ```
 
 ## <img src="assets/icon-activity.svg" width="22" valign="middle" alt=""> GitHub activity
@@ -180,7 +161,7 @@ timeline
 </p>
 
 <p align="center">
-  Open to thoughtful freelance engagements and full-time opportunities.<br>
+  Open to freelance and full-time work.<br>
   <a href="mailto:jay@webwizards.in">Get in touch ↗</a><br><br>
   <img src="https://komarev.com/ghpvc/?username=MrJ-2k04&style=flat-square&color=f4bd32&label=profile+views" alt="Profile views">
 </p>

@@ -6,10 +6,10 @@
     <radialGradient id="comet"><stop stop-color="#ffe69a" stop-opacity=".9"/><stop offset="1" stop-color="#f4bd32" stop-opacity="0"/></radialGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#7e8a99" stroke-opacity=".10"/></pattern>
     <clipPath id="card"><rect width="1200" height="320" rx="18"/></clipPath>
-    <clipPath id="t0"><rect x="88" y="260" height="28" width="0"><animate attributeName="width" values="0;346;346;0;0" keyTimes="0;0.075;0.2;0.23125;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="t1"><rect x="88" y="260" height="28" width="0"><animate attributeName="width" values="0;0;356;356;0;0" keyTimes="0;0.25;0.325;0.45;0.48125;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="t2"><rect x="88" y="260" height="28" width="0"><animate attributeName="width" values="0;0;302;302;0;0" keyTimes="0;0.5;0.575;0.7;0.73125;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="t3"><rect x="88" y="260" height="28" width="0"><animate attributeName="width" values="0;0;302;302;0;0" keyTimes="0;0.75;0.825;0.95;0.98125;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="t0"><rect x="88" y="240" height="28" width="0"><animate attributeName="width" values="0;346;346;0;0" keyTimes="0;0.075;0.2;0.23125;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="t1"><rect x="88" y="240" height="28" width="0"><animate attributeName="width" values="0;0;356;356;0;0" keyTimes="0;0.25;0.325;0.45;0.48125;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="t2"><rect x="88" y="240" height="28" width="0"><animate attributeName="width" values="0;0;302;302;0;0" keyTimes="0;0.5;0.575;0.7;0.73125;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="t3"><rect x="88" y="240" height="28" width="0"><animate attributeName="width" values="0;0;302;302;0;0" keyTimes="0;0.75;0.825;0.95;0.98125;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
   </defs>
 
   <g clip-path="url(#card)">
@@ -70,27 +70,25 @@
   </g>
 
   <g font-family="Arial, Helvetica, sans-serif">
-    <text x="58" y="58" fill="#f4bd32" font-size="15" letter-spacing="4">ENGINEERING / SYSTEMS / DELIVERY</text>
-    <circle cx="514" cy="53" r="5" fill="#3fb950"><animate attributeName="fill-opacity" values="1;0.35;1" dur="1.6s" repeatCount="indefinite"/></circle>
-    <circle cx="514" cy="53" r="5" fill="none" stroke="#3fb950">
+    <circle cx="64" cy="53" r="5" fill="#3fb950"><animate attributeName="fill-opacity" values="1;0.35;1" dur="1.6s" repeatCount="indefinite"/></circle>
+    <circle cx="64" cy="53" r="5" fill="none" stroke="#3fb950">
       <animate attributeName="r" values="5;13" dur="1.6s" repeatCount="indefinite"/>
       <animate attributeName="stroke-opacity" values="0.7;0" dur="1.6s" repeatCount="indefinite"/>
     </circle>
-    <text x="530" y="58" fill="#3fb950" font-size="14" letter-spacing="2">OPEN TO WORK</text>
+    <text x="80" y="58" fill="#3fb950" font-size="14" letter-spacing="2">OPEN TO WORK</text>
 
-    <text x="54" y="140" fill="#f4f6f8" font-size="72" font-weight="700">Jay <tspan fill="#f4bd32">Soni</tspan></text>
-    <rect x="58" y="162" width="4" height="36" rx="2" fill="#f4bd32"/>
-    <text x="76" y="189" fill="#e8edf3" font-size="28">Full-Stack Engineer <tspan fill="#778493">/</tspan> Solutions Architect</text>
-    <text x="59" y="234" fill="#b8c2cf" font-size="20">Designing, building and shipping software that solves real problems.</text>
+    <text x="54" y="150" fill="#f4f6f8" font-size="72" font-weight="700">Jay <tspan fill="#f4bd32">Soni</tspan></text>
+    <rect x="58" y="172" width="4" height="36" rx="2" fill="#f4bd32"/>
+    <text x="76" y="199" fill="#e8edf3" font-size="28">Full-Stack Engineer <tspan fill="#778493">/</tspan> Solutions Architect</text>
   </g>
 
   <g font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="18" fill="#9da7b3">
-    <text x="59" y="280" fill="#f4bd32">$</text>
-    <text x="88" y="280" textLength="346" lengthAdjust="spacing" clip-path="url(#t0)">building full-stack applications</text>
-    <text x="88" y="280" textLength="356" lengthAdjust="spacing" clip-path="url(#t1)">architecting cloud infrastructure</text>
-    <text x="88" y="280" textLength="302" lengthAdjust="spacing" clip-path="url(#t2)">integrating AI into products</text>
-    <text x="88" y="280" textLength="302" lengthAdjust="spacing" clip-path="url(#t3)">shipping ideas to production</text>
-    <rect x="88" y="264" width="11" height="21" fill="#f4bd32">
+    <text x="59" y="260" fill="#f4bd32">$</text>
+    <text x="88" y="260" textLength="346" lengthAdjust="spacing" clip-path="url(#t0)">building full-stack applications</text>
+    <text x="88" y="260" textLength="356" lengthAdjust="spacing" clip-path="url(#t1)">architecting cloud infrastructure</text>
+    <text x="88" y="260" textLength="302" lengthAdjust="spacing" clip-path="url(#t2)">integrating AI into products</text>
+    <text x="88" y="260" textLength="302" lengthAdjust="spacing" clip-path="url(#t3)">shipping ideas to production</text>
+    <rect x="88" y="244" width="11" height="21" fill="#f4bd32">
       <animate attributeName="x" values="88;434;434;88;88;444;444;88;88;390;390;88;88;390;390;88;88" keyTimes="0;0.075;0.2;0.23125;0.25;0.325;0.45;0.48125;0.5;0.575;0.7;0.73125;0.75;0.825;0.95;0.98125;1" dur="16s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
     </rect>
