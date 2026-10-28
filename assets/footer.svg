@@ -7,7 +7,7 @@
     </linearGradient>
   </defs>
 
-  <text x="600" y="34" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="15" letter-spacing="2" fill="#8b949e">THANKS FOR STOPPING BY
+  <text x="600" y="34" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="19" letter-spacing="2" fill="#8b949e">THANKS FOR STOPPING BY
     <animate attributeName="fill-opacity" values="0.55;1;0.55" dur="4s" repeatCount="indefinite"/>
   </text>
 

@@ -72,14 +72,14 @@ function render(s, t) {
     ['TOTAL CONTRIBUTIONS', fmt(s.total), `since ${s.since}`, t.muted],
     ['LAST 12 MONTHS', fmt(s.lastYear), s.growth > 0 ? `↑ ${s.growth}% year over year` : 'contributions', s.growth > 0 ? t.accent[0] : t.muted],
     ['ACTIVE DAYS', fmt(s.activeDays), 'days with a contribution', t.muted],
-    ['BEST DAY', fmt(s.best.count), `contributions on ${s.best.date}`, t.muted],
+    ['MOST IN ONE DAY', fmt(s.best.count), `on ${s.best.date}`, t.muted],
   ].map(([label, value, sub, subColor], i) => {
     const x = 24 + i * 292;
     return `<g opacity="0">${fade(0.1 + i * 0.12)}
     <rect x="${x}" y="24" width="276" height="132" rx="14" fill="${t.panel}" stroke="${t.border}"/>
-    <text x="${x + 24}" y="58" font-family="${MONO}" font-size="12" letter-spacing="2" fill="${t.muted}">${label}</text>
-    <text x="${x + 22}" y="110" font-family="${SANS}" font-size="44" font-weight="700" fill="${t.text}">${value}</text>
-    <text x="${x + 24}" y="138" font-family="${SANS}" font-size="14" fill="${subColor}">${sub}</text>
+    <text x="${x + 24}" y="60" font-family="${MONO}" font-size="14" letter-spacing="1.5" fill="${t.muted}">${label}</text>
+    <text x="${x + 22}" y="110" font-family="${SANS}" font-size="46" font-weight="700" fill="${t.text}">${value}</text>
+    <text x="${x + 24}" y="140" font-family="${SANS}" font-size="17" fill="${subColor}">${sub}</text>
   </g>`;
   }).join('\n  ');
 
@@ -89,15 +89,15 @@ function render(s, t) {
     const cx = 126 + i * 139;
     const begin = 0.6 + i * 0.12;
     return `${bar(cx - 28, 56, h, begin, 'url(#bar)')}
-    <text x="${cx}" y="${base - h - 10}" text-anchor="middle" font-family="${SANS}" font-size="15" font-weight="600" fill="${t.text}" opacity="0">${fmt(v)}${fade(begin + 0.6)}</text>
-    <text x="${cx}" y="394" text-anchor="middle" font-family="${MONO}" font-size="13" fill="${t.muted}">${year}</text>`;
+    <text x="${cx}" y="${base - h - 10}" text-anchor="middle" font-family="${SANS}" font-size="17" font-weight="600" fill="${t.text}" opacity="0">${fmt(v)}${fade(begin + 0.6)}</text>
+    <text x="${cx}" y="396" text-anchor="middle" font-family="${MONO}" font-size="15" fill="${t.muted}">${year}</text>`;
   }).join('\n    ');
 
   const dayMax = Math.max(...s.weekdays.map((d) => d.value));
   const weekdays = s.weekdays.map((d, i) => {
     const cx = 839 + i * 47;
     return `${bar(cx - 11, 22, Math.max(4, Math.round((d.value / dayMax) * 96)), 0.8 + i * 0.08, d.value === dayMax ? t.accent[1] : t.idle)}
-    <text x="${cx}" y="394" text-anchor="middle" font-family="${MONO}" font-size="13" fill="${t.muted}">${d.label}</text>`;
+    <text x="${cx}" y="396" text-anchor="middle" font-family="${MONO}" font-size="15" fill="${t.muted}">${d.label}</text>`;
   }).join('\n    ');
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="456" viewBox="0 0 1200 456" role="img" aria-label="${fmt(s.total)} GitHub contributions since ${s.since}, ${fmt(s.lastYear)} in the last 12 months">
@@ -115,14 +115,14 @@ function render(s, t) {
   <g opacity="0">${fade(0.5)}
     <rect x="24" y="172" width="752" height="240" rx="14" fill="${t.panel}" stroke="${t.border}"/>
     <rect x="792" y="172" width="384" height="240" rx="14" fill="${t.panel}" stroke="${t.border}"/>
-    <text x="48" y="206" font-family="${MONO}" font-size="12" letter-spacing="2" fill="${t.muted}">CONTRIBUTIONS PER YEAR</text>
-    <text x="816" y="206" font-family="${MONO}" font-size="12" letter-spacing="2" fill="${t.muted}">WEEKLY RHYTHM</text>
-    <text x="816" y="230" font-family="${SANS}" font-size="14" fill="${t.muted}">busiest on <tspan fill="${t.accent[1]}" font-weight="600">${s.busiest}</tspan></text>
+    <text x="48" y="208" font-family="${MONO}" font-size="14" letter-spacing="1.5" fill="${t.muted}">CONTRIBUTIONS PER YEAR</text>
+    <text x="816" y="208" font-family="${MONO}" font-size="14" letter-spacing="1.5" fill="${t.muted}">WEEKLY RHYTHM</text>
+    <text x="816" y="236" font-family="${SANS}" font-size="17" fill="${t.muted}">busiest on <tspan fill="${t.accent[1]}" font-weight="600">${s.busiest}</tspan></text>
   </g>
   ${years}
   ${weekdays}
 
-  <text x="600" y="440" text-anchor="middle" font-family="${MONO}" font-size="12" fill="${t.muted}">includes private work · refreshed daily · updated ${fmtDate(Date.now(), { day: 'numeric', month: 'short', year: 'numeric' })}</text>
+  <text x="600" y="442" text-anchor="middle" font-family="${MONO}" font-size="15" fill="${t.muted}">includes private work · refreshed daily · updated ${fmtDate(Date.now(), { day: 'numeric', month: 'short', year: 'numeric' })}</text>
 </svg>
 `;
 }
