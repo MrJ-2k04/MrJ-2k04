@@ -132,74 +132,11 @@ jay.build("something worth shipping");
 
 ## <img src="assets/icon-stack.svg" width="22" valign="middle" alt=""> Technical toolkit
 
-<h4 align="center">💻 Frontend & Mobile</h4>
 <p align="center">
-  <img src="assets/badge-react.svg" alt="React">
-  <img src="assets/badge-next-js.svg" alt="Next.js">
-  <img src="assets/badge-flutter.svg" alt="Flutter">
-  <img src="assets/badge-material-ui.svg" alt="Material UI">
-  <img src="assets/badge-vite.svg" alt="Vite">
-</p>
-
-<h4 align="center">⚙️ Backend & APIs</h4>
-<p align="center">
-  <img src="assets/badge-node-js.svg" alt="Node.js">
-  <img src="assets/badge-express-js.svg" alt="Express.js">
-  <img src="assets/badge-graphql.svg" alt="GraphQL">
-  <img src="assets/badge-fastapi.svg" alt="FastAPI">
-</p>
-
-<h4 align="center">📝 Languages</h4>
-<p align="center">
-  <img src="assets/badge-typescript.svg" alt="TypeScript">
-  <img src="assets/badge-javascript.svg" alt="JavaScript">
-  <img src="assets/badge-python.svg" alt="Python">
-  <img src="assets/badge-dart.svg" alt="Dart">
-</p>
-
-<h4 align="center">☁️ Cloud (Amazon Web Services)</h4>
-<p align="center">
-  <img src="assets/badge-aws-amplify.svg" height="28" alt="AWS Amplify">
-  <img src="assets/badge-aws-lambda.svg" height="28" alt="AWS Lambda">
-  <img src="assets/badge-aws-appsync.svg" height="28" alt="AWS AppSync">
-  <img src="assets/badge-aws-cognito.svg" height="28" alt="Amazon Cognito"><br>
-  <img src="assets/badge-aws-s3.svg" height="28" alt="Amazon S3">
-  <img src="assets/badge-aws-sqs.svg" height="28" alt="Amazon SQS">
-  <img src="assets/badge-aws-ecs.svg" height="28" alt="Amazon ECS">
-</p>
-
-<h4 align="center">🚀 DevOps & Delivery</h4>
-<p align="center">
-  <img src="assets/badge-docker.svg" alt="Docker">
-  <img src="assets/badge-github-actions.svg" alt="GitHub Actions">
-  <img src="assets/badge-cloudflare.svg" alt="Cloudflare">
-  <img src="assets/badge-linux.svg" height="28" alt="Linux">
-</p>
-
-<h4 align="center">🌐 Hosting & Deployment</h4>
-<p align="center">
-  <img src="assets/badge-render.svg" alt="Render">
-  <img src="assets/badge-modal.svg" height="28" alt="Modal">
-  <img src="assets/badge-cpanel.svg" height="28" alt="cPanel">
-  <img src="assets/badge-directadmin.svg" height="28" alt="DirectAdmin">
-</p>
-
-<h4 align="center">🗄️ Databases</h4>
-<p align="center">
-  <img src="assets/badge-aws-dynamodb.svg" height="28" alt="Amazon DynamoDB">
-  <img src="assets/badge-mongodb.svg" alt="MongoDB">
-  <img src="assets/badge-postgresql.svg" height="28" alt="PostgreSQL">
-  <img src="assets/badge-firebase.svg" alt="Firebase">
-</p>
-
-<h4 align="center">🤖 AI & Machine Learning</h4>
-<p align="center">
-  <img src="assets/badge-aws-bedrock.svg" height="28" alt="Amazon Bedrock">
-  <img src="assets/badge-claude.svg" alt="Claude">
-  <img src="assets/badge-insightface.svg" height="28" alt="InsightFace">
-  <img src="assets/badge-onnx-runtime.svg" alt="ONNX Runtime">
-  <img src="assets/badge-scikit-learn.svg" height="28" alt="scikit-learn">
-  <img src="assets/badge-streamlit.svg" alt="Streamlit">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/toolkit-dark.svg">
+    <img src="assets/toolkit-light.svg" width="100%" alt="Technical toolkit grouped by layer. Frontend and mobile: React, Next.js, Flutter, Material UI, Vite. Backend and APIs: Node.js, Express.js, GraphQL, FastAPI. Amazon Web Services: Amplify, Lambda, AppSync, Cognito, S3, SQS, ECS. Databases: DynamoDB, MongoDB, PostgreSQL, Firebase. AI and machine learning: Amazon Bedrock, Claude, InsightFace, ONNX Runtime, scikit-learn, Streamlit. Languages: TypeScript, JavaScript, Python, Dart. DevOps and hosting: Docker, GitHub Actions, Cloudflare, Linux, Render, Modal, cPanel, DirectAdmin.">
+  </picture>
 </p>
 
 ## <img src="assets/icon-journey.svg" width="22" valign="middle" alt=""> Career path
