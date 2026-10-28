@@ -12,16 +12,14 @@
 </p>
 
 <p align="center">
-  <em>Full-stack systems · Cloud architecture · Applied AI</em>
+  <em>Full-stack systems · Cloud architecture · AI Integration</em>
 </p>
 
 ---
 
 ## <img src="assets/icon-overview.svg" width="22" valign="middle" alt=""> Engineering overview
 
-I design, build and ship production software across the stack, from web and mobile applications to cloud infrastructure and AI-powered workflows. Over the past three years I've grown from contractor to Lead Engineer at **EngagementHub**, an AFSL-compliant SaaS platform used by Australian financial advisers, while also building and shipping products of my own.
-
-I enjoy owning problems end to end: understanding constraints, choosing a practical architecture, delivering the implementation and improving it in production. My focus is on reliable systems, maintainable code and technology that solves a real problem.
+I take products from idea to production across web, mobile, cloud and AI. Today I'm the Lead Engineer at **EngagementHub**, an AFSL-compliant SaaS platform for Australian financial advisers.
 
 <table>
   <tr>
@@ -32,17 +30,20 @@ const jay = {
   basedIn: "Ahmedabad, India",
   role: "Full-Stack Engineer & Solutions Architect",
   now: "Lead Engineer at EngagementHub",
-  focus: ["AWS", "Applied AI", "System design"],
-  approach: "Practical, secure, production-minded",
+  thinksIn: ["systems", "trade-offs", "outcomes"],
+  mantra: "Simple. Secure. Easy to change.",
+  ships: "idea → production → iteration",
   openTo: ["Freelance", "Full-time"],
 };
+
+jay.build("something worth shipping");
 ```
 
   </td>
   <td valign="middle">
-    <p><img src="assets/icon-build.svg" width="20" valign="middle" alt=""> <strong>Build end to end</strong><br>From product requirements to deployment and iteration.</p>
-    <p><img src="assets/icon-design.svg" width="20" valign="middle" alt=""> <strong>Design for change</strong><br>Architecture that balances reliability, cost and maintainability.</p>
-    <p><img src="assets/icon-ai.svg" width="20" valign="middle" alt=""> <strong>Make AI useful</strong><br>Integrations built around real workflows, not demos.</p>
+    <p><img src="assets/icon-ownership.svg" width="20" valign="middle" alt=""> <strong>I own it end to end</strong><br>From the first requirement to production, and the improvements that follow launch.</p>
+    <p><img src="assets/icon-extensible.svg" width="20" valign="middle" alt=""> <strong>I design for what's next</strong><br>Simple architecture today that scales, stays secure and is easy to change tomorrow.</p>
+    <p><img src="assets/icon-ai.svg" width="20" valign="middle" alt=""> <strong>I make AI earn its place</strong><br>AI built into real workflows, with cost, speed and accuracy kept in check.</p>
   </td>
   </tr>
 </table>
@@ -71,7 +72,7 @@ const jay = {
     <td width="50%" valign="top">
       <h3><img src="assets/work-presentify.svg" width="44" valign="middle" alt=""> Presentify</h3>
       <p><strong>Face-recognition attendance for schools and colleges.</strong></p>
-      <p><strong>Role:</strong> Founder and sole engineer, from architecture through to the App Store and Google Play release.</p>
+      <p><strong>Role:</strong> Founder and engineer, from architecture through to the App Store and Google Play release.</p>
       <p><strong>Impact:</strong> 1,200+ students · 430+ lectures · ~20s per class photo</p>
       <details>
         <summary><strong>Under the hood</strong></summary>
@@ -152,7 +153,7 @@ const jay = {
 <p align="center">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Python-1E2A38?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48bGluZWFyR3JhZGllbnQgaWQ9InB5dGhvbi1vcmlnaW5hbC1hIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjcwLjI1MiIgeTE9IjEyMzcuNDc2IiB4Mj0iMTcwLjY1OSIgeTI9IjExNTEuMDg5IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KC41NjMgMCAwIC0uNTY4IC0yOS4yMTUgNzA3LjgxNykiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzVBOUZENCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzMwNjk5OCIvPjwvbGluZWFyR3JhZGllbnQ%2BPGxpbmVhckdyYWRpZW50IGlkPSJweXRob24tb3JpZ2luYWwtYiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIyMDkuNDc0IiB5MT0iMTA5OC44MTEiIHgyPSIxNzMuNjIiIHkyPSIxMTQ5LjUzNyIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCguNTYzIDAgMCAtLjU2OCAtMjkuMjE1IDcwNy44MTcpIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNGRkQ0M0IiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNGRkU4NzMiLz48L2xpbmVhckdyYWRpZW50PjxwYXRoIGZpbGw9InVybCgjcHl0aG9uLW9yaWdpbmFsLWEpIiBkPSJNNjMuMzkxIDEuOTg4Yy00LjIyMi4wMi04LjI1Mi4zNzktMTEuOCAxLjAwNy0xMC40NSAxLjg0Ni0xMi4zNDYgNS43MS0xMi4zNDYgMTIuODM3djkuNDExaDI0LjY5M3YzLjEzN0gyOS45NzdjLTcuMTc2IDAtMTMuNDYgNC4zMTMtMTUuNDI2IDEyLjUyMS0yLjI2OCA5LjQwNS0yLjM2OCAxNS4yNzUgMCAyNS4wOTYgMS43NTUgNy4zMTEgNS45NDcgMTIuNTE5IDEzLjEyNCAxMi41MTloOC40OTFWNjcuMjM0YzAtOC4xNTEgNy4wNTEtMTUuMzQgMTUuNDI2LTE1LjM0aDI0LjY2NWM2Ljg2NiAwIDEyLjM0Ni01LjY1NCAxMi4zNDYtMTIuNTQ4VjE1LjgzM2MwLTYuNjkzLTUuNjQ2LTExLjcyLTEyLjM0Ni0xMi44MzctNC4yNDQtLjcwNi04LjY0NS0xLjAyNy0xMi44NjYtMS4wMDh6TTUwLjAzNyA5LjU1N2MyLjU1IDAgNC42MzQgMi4xMTcgNC42MzQgNC43MjEgMCAyLjU5My0yLjA4MyA0LjY5LTQuNjM0IDQuNjktMi41NiAwLTQuNjMzLTIuMDk3LTQuNjMzLTQuNjktLjAwMS0yLjYwNCAyLjA3My00LjcyMSA0LjYzMy00LjcyMXoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgMTAuMjYpIi8%2BPHBhdGggZmlsbD0idXJsKCNweXRob24tb3JpZ2luYWwtYikiIGQ9Ik05MS42ODIgMjguMzh2MTAuOTY2YzAgOC41LTcuMjA4IDE1LjY1NS0xNS40MjYgMTUuNjU1SDUxLjU5MWMtNi43NTYgMC0xMi4zNDYgNS43ODMtMTIuMzQ2IDEyLjU0OXYyMy41MTVjMCA2LjY5MSA1LjgxOCAxMC42MjggMTIuMzQ2IDEyLjU0NyA3LjgxNiAyLjI5NyAxNS4zMTIgMi43MTMgMjQuNjY1IDAgNi4yMTYtMS44MDEgMTIuMzQ2LTUuNDIzIDEyLjM0Ni0xMi41NDd2LTkuNDEySDYzLjkzOHYtMy4xMzhoMzcuMDEyYzcuMTc2IDAgOS44NTItNS4wMDUgMTIuMzQ4LTEyLjUxOSAyLjU3OC03LjczNSAyLjQ2Ny0xNS4xNzQgMC0yNS4wOTYtMS43NzQtNy4xNDUtNS4xNjEtMTIuNTIxLTEyLjM0OC0xMi41MjFoLTkuMjY4ek03Ny44MDkgODcuOTI3YzIuNTYxIDAgNC42MzQgMi4wOTcgNC42MzQgNC42OTIgMCAyLjYwMi0yLjA3NCA0LjcxOS00LjYzNCA0LjcxOS0yLjU1IDAtNC42MzMtMi4xMTctNC42MzMtNC43MTkgMC0yLjU5NSAyLjA4My00LjY5MiA0LjYzMy00LjY5MnoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgMTAuMjYpIi8%2BPHJhZGlhbEdyYWRpZW50IGlkPSJweXRob24tb3JpZ2luYWwtYyIgY3g9IjE4MjUuNjc4IiBjeT0iNDQ0LjQ1IiByPSIyNi43NDMiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMCAtLjI0IC0xLjA1NSAwIDUzMi45NzkgNTU3LjU3NikiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNCOEI4QjgiIHN0b3Atb3BhY2l0eT0iLjQ5OCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzdGN0Y3RiIgc3RvcC1vcGFjaXR5PSIwIi8%2BPC9yYWRpYWxHcmFkaWVudD48cGF0aCBvcGFjaXR5PSIuNDQ0IiBmaWxsPSJ1cmwoI3B5dGhvbi1vcmlnaW5hbC1jKSIgZD0iTTk3LjMwOSAxMTkuNTk3YzAgMy41NDMtMTQuODE2IDYuNDE2LTMzLjA5MSA2LjQxNi0xOC4yNzYgMC0zMy4wOTItMi44NzMtMzMuMDkyLTYuNDE2IDAtMy41NDQgMTQuODE1LTYuNDE3IDMzLjA5Mi02LjQxNyAxOC4yNzUgMCAzMy4wOTEgMi44NzIgMzMuMDkxIDYuNDE3eiIvPjwvc3ZnPiA%3D" alt="Python">
   <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart">
 </p>
 
@@ -175,6 +176,14 @@ const jay = {
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
 </p>
 
+<h4 align="center">🌐 Hosting & Deployment</h4>
+<p align="center">
+  <img src="https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white" alt="Render">
+  <img src="https://img.shields.io/badge/Modal-7FEE64?style=for-the-badge&logo=modal&logoColor=black" alt="Modal">
+  <img src="https://img.shields.io/badge/cPanel-FF6C2C?style=for-the-badge&logo=cpanel&logoColor=white" alt="cPanel">
+  <img src="https://img.shields.io/badge/DirectAdmin-2C6DA8?style=for-the-badge" alt="DirectAdmin">
+</p>
+
 <h4 align="center">🗄️ Databases</h4>
 <p align="center">
   <img src="https://img.shields.io/badge/AWS-DynamoDB-4053D6?style=for-the-badge&labelColor=FF9900" alt="Amazon DynamoDB">
@@ -191,13 +200,6 @@ const jay = {
   <img src="https://img.shields.io/badge/ONNX_Runtime-005CED?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX Runtime">
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn">
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit">
-</p>
-
-<h4 align="center">🔌 Integrations & Payments</h4>
-<p align="center">
-  <img src="https://img.shields.io/badge/DocuSign-4C00FF?style=for-the-badge" alt="DocuSign">
-  <img src="https://img.shields.io/badge/Razorpay-0C2451?style=for-the-badge&logo=razorpay&logoColor=3395FF" alt="Razorpay">
-  <img src="https://img.shields.io/badge/Google_Maps-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Google Maps">
 </p>
 
 ## <img src="assets/icon-journey.svg" width="22" valign="middle" alt=""> Career path
