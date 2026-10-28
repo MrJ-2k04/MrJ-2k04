@@ -47,7 +47,7 @@ const jay = {
   </tr>
 </table>
 
-## <img src="assets/icon-work.svg" width="22" valign="middle" alt=""> Selected engineering work
+## <img src="assets/icon-work.svg" width="22" valign="middle" alt=""> Featured engineering work
 
 <table>
   <tr>
