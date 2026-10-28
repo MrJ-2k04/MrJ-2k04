@@ -55,7 +55,7 @@ jay.build("something worth shipping");
     <td colspan="3" valign="top">
       <h3><img src="assets/work-engagementhub.svg" width="44" valign="middle" alt=""> EngagementHub</h3>
       <p><strong>AFSL-compliant SaaS for Australian financial advisers.</strong></p>
-      <p>Lead Engineer · 230+ commits · 6 AI tools built</p>
+      <p>Lead Engineer · 230+ commits · 9+ AI tools built</p>
       <p><strong>Highlight:</strong> a stalled AI prototype rebuilt as an SQS → Lambda → Bedrock pipeline, later moved to ECS when it outgrew Lambda.</p>
       <details>
         <summary><strong>Under the hood</strong></summary>
